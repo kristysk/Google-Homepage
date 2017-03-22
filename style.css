@@ -1,8 +1,8 @@
-
 html, body {
 	font-family: 'Lato', sans-serif;
 	font-size: small;
 	margin: 0;
+  height:100%;
 	padding: 0;
 }
 
@@ -81,13 +81,53 @@ section .search_button {
 }
 
 /* FOOTER */
-.footer {
-	position: absolute;
-	height: 40px;
-	bottom: 0;
-	font-size: 10pt;
-	width: 100%;
-	background: #f2f2f2;
-	color: #666;
-	border-top: 1px solid #e4e4e4;
+#footer {
+position: absolute;
+bottom:0;
+height:60px;
+width:100%;
+background-color:#f2f2f2;
+clear:both;
+display:block;
+border-top: 1px solid #e4e4e4;
+}
+#leftfoot {
+width:300px;
+left:0;
+  /*background-color:blue;*/
+display: inline-block;
+}
+.lf {
+display: inline-block;
+}
+.lf a {
+text-decoration:none;
+color: #404040;
+font-size: 13px;
+font-family: Arial;
+padding-left: 15px;
+}
+.lf a:hover {
+text-decoration: underline;
+}
+#rightfoot {
+width:250px;
+float:right;
+/*background-color:blue;*/
+padding:0;
+margin:0;
+}
+.rf {
+display: inline-block;
+margin:auto;
+}
+.rf a {
+text-decoration:none;
+color: #404040;
+font-size: 13px;
+padding-left: 15px;
+font-family: Arial;
+}
+.rf a:hover {
+text-decoration: underline;
 }
